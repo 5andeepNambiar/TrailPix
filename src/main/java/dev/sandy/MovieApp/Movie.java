@@ -36,6 +36,6 @@ public class Movie {
     private List<String> backdrops;
 
     @DocumentReference
-    private List<String> reviewIds;
+    private List<Review> reviewIds;
 
 }
